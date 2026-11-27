@@ -1,0 +1,51 @@
+# Local Android and Kotlin build state
+.gradle/
+.kotlin/
+**/build/
+/build/
+/dist/
+local.properties
+
+# Private source data, exports, and field recordings
+*.xlsx
+*.xls
+*.csv
+*.kml
+*.kmz
+*.tif
+*.tiff
+*.xywy
+*.apk
+*.aab
+*.dex
+*.log
+*.zip
+*.7z
+*.db
+*.sqlite
+*.mbtiles
+*.docx
+*.pdf
+/raw*.txt
+/temp*_ctx.txt
+
+# Drafts and unrelated business tooling are not part of the public Android project
+/docs/
+/drawMap/
+/tif/
+/dex/
+/dex_smali/
+/_apk_inspect/
+/tmp_apk/
+/.tmp*
+/.zcode/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+*.keystore
+*.jks
+*.pem
+*.key
+*.p12
+*.pfx
